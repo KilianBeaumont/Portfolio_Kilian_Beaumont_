@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Kilian Beaumont</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="" class="nav-logo">KB</a>
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#experience" class="nav-link">Parcours</a>
+          </li>
+          <li class="nav-item">
+            <a href="#project" class="nav-link">Projets</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="nav-close" id="nav-close">
+          <i class="ri-close-line"></i>
+        </div>
+      </div>
+      <div class="nav-button">
+        <div class="nav-toggle" id="nav-toggle">
+          <i class="ri-menu-4-line"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <div class="container-medium">
+      <p>Bonjour, je m'appelle</p>
+      <h1>Kilian Beaumont</h1>
+      <p>Je suis actuellement étudiant en 2 ème année de BTS Services Informatiques aux Organisations, option Solutions Logiciels et Applications Métiers. Mon but est de devenir développeur full stack.</p>
+      <a href="#experience"><h2>Me découvrir<i class="ri-arrow-right-s-line"></i></h2></a>
+    </div>
+  </div>
+
+  <div class="experience" id="experience">
+    <div class="container-medium">
+      <h3>PARCOURS</h3>
+      <div class="accordion-experience">
+
+        <section id="section1">
+          <input type="radio" name="sections" id="option1" checked>
+          <label for="option1"><span>Baccalauréat</span></label>
+          <article>
+            <div class="title-experience">
+              <h2>Baccalauréat général</h2>
+              <p>Sept 2019 - Août 2021</p>
+            </div>
+            <p>Besançon - Lycée Jules Haag / Martinique - Lycée Joseph Gaillard</p>
+            <ul>
+              <li>Spécialité Mathématiques</li>
+              <li>Spécialité Sciences de l'Ingénieur</li>
+              <li>Spécialité Physique Chimie</li>
+            </ul>
+          </article>
+        </section>
+
+        <section id="section2">
+          <input type="radio" name="sections" id="option2">
+          <label for="option2"><span>BTS SIO </span></label>
+          <article>
+            <div class="title-experience">
+              <h2>Services Informatiques aux Organisations</h2>
+              <p>Sept 2021 - Juin 2023</p>
+            </div>
+            <p>Besançon - Lycée Louis Pergaud</p>
+            <ul>
+              <li>Le BTS SIO option SLAM permet d'acquérir les compétences de trois domaines d'activités :</li>
+              <li>Support et mise à disposition de services informatiques</li>
+              <li>Cybersécurité des services informatiques</li>
+              <li>Conception et développement d'applications</li>
+            </ul>
+            </ul>
+          </article>
+        </section>
+
+        <section id="section3">
+          <input type="radio" name="sections" id="option3">
+          <label for="option3"><span>Stages</span></label>
+          <article>
+            <div class="title-experience">
+              <h2>Stages effectués</h2>
+              <p>25 Mai - 30 Juin 2022 / 23 Jan - 19 Mars 2023</p>
+            </div>
+            <p>Besançon - BTS SIO</p>
+            <ul>
+              <li>Laboratoire ThéMA : développement d'une application mobile sous Flutter</li>
+              <li>Next-App : développement d'une API sous symfony 6</li>
+            </ul>
+          </article>
+        </section>
+
+        <section id="section4">
+          <input type="radio" name="sections" id="option4">
+          <label for="option4"><span>Présent</span></label>
+          <article>
+            <div class="title-experience">
+              <h2>En recherche de formation...</h2>
+              <p>Sept 2023</p>
+            </div>
+            <p>Besançon</p>
+            <ul>
+              <li>Actuellement en recherche d'une alternance pour poursuivre mes études au CESI de Dijon.
+                  L'université de Sciences en Informatiques est mon second choix.
+                  Si vous êtes une entreprise et que mon profil vous intéresse, contactez moi ! 
+              </li>
+            </ul>
+          </article>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <div class="featured-project" id="project">
+    <div class="container-medium">
+      <hr>
+      <h4>Projets réalisés</h4>      
+      <div class="box-featured-projects">
+        <div class="project">
+          <a href="https://github.com/KilianBeaumont/FC-tourisme">
+            <img src="./img/img-1.png" alt="">
+          <div class="body-project">
+            <div class="head-project">
+              <h3>FC Tourisme</h3>
+              <div class="icon-project">
+                <i class="ri-github-fill"></i>
+                <i class="ri-link"></i>
+              </div>
+            </div>
+            <p>Le conseil régional de Franche-Comté souhaite promouvoir les établissements touristiques de la région. Pour ce faire, il souhaite développer un site internet permettant aux propriétaires d'établissements de la région de présenter leurs établissements afin de mieux les faire connaître.</p>
+            <p class="p-tech">Symfony 6 - Doctrine - SGBD MySQL</p>
+          </div>
+          </a>
+        </div>
+
+        <div class="project">
+          <a href="https://github.com/KilianBeaumont/Projet_API_Stage">
+            <img src="./img/img-2.png" alt="" srcset="">
+          <div class="body-project">
+            <div class="head-project">
+              <h3>API Gestion de projets</h3>
+              <div class="icon-project">
+                <i class="ri-github-fill"></i>
+                <i class="ri-link"></i>
+              </div>
+            </div>
+            <p>L'objectif est de créer une API pour créer un site de gestion de projet et de comptabilité pour une entreprise. </p>
+            <p class="p-tech">Symfony 6 - Doctrine - SGBD MySQL</p>
+          </div>
+          </a>
+        </div>
+
+        <div class="project">
+          <a href="https://github.com/KilianBeaumont/Quizz_api/tree/main">
+            <img src="./img/quiz.png" alt="" srcset="">
+          <div class="body-project">
+            <div class="head-project">
+              <h3>Quiz_js</h3>
+              <div class="icon-project">
+                <i class="ri-github-fill"></i>
+                <i class="ri-link"></i>
+              </div>
+            </div>
+            <p>Développement d'un quiz en HTML, CSS et Javascript. En fonction d'un thème choisi, l'utilisateur entre un nombre de questions auxquelles il souhaite répondre.</p>
+            <p class="p-tech">HTML - CSS - JS</p>
+          </div>
+          </a>
+        </div>
+
+        <div class="project">
+          <a href="https://github.com/KilianBeaumont">
+            <img src="./img/img-4.png" alt="" srcset="">
+          <div class="body-project">
+            <div class="head-project">
+              <h3>Application Flutter</h3>
+              <div class="icon-project">
+                <i class="ri-github-fill"></i>
+                <i class="ri-link"></i>
+              </div>
+            </div>
+            <p>Développement d'une application mobile sous Flutter dans le cadre de mon stage de première année de BTS SIO. L'objectif était de récolter l'avis des utilisateurs sur des 
+                monuments historiques de Besançon, sous forme de formulaire. La fonctionnalité de prendre une photo ou de choisir un fichier depuis son smartphone était aussi demandée.
+            </p>
+            <p class="p-tech">Flutter - Android Studio - Dart</p>
+          </div>
+          </a>
+        </div>
+
+        <div class="project">
+          <a href="">
+            <img src="./img/portV2.PNG" alt="" srcset="">
+          <div class="body-project">
+            <div class="head-project">
+              <h3>Portfolio V2</h3>
+              <div class="icon-project">
+                <i class="ri-github-fill"></i>
+                <i class="ri-link"></i>
+              </div>
+            </div>
+            <p>Portfolio développé dans le cadre de ma deuxième année de BTS SIO.</p>
+            <p class="p-tech">HTML - CSS -JS</p>
+          </div>
+          </a>
+        </div>
+
+        <div class="project">
+          <a href="">
+            <img src="./img/img-6.png" alt="" srcset="">
+          <div class="body-project">
+            <div class="head-project">
+              <h3>Portoflio</h3>
+              <div class="icon-project">
+                <i class="ri-github-fill"></i>
+                <i class="ri-link"></i>
+              </div>
+            </div>
+            <p>Premier portfolio développé uniquement en HTML et CSS. Le but était de découvrir et d'apprendre à développer en HTML et CSS.</p>
+            <p class="p-tech">HTML - CSS</p>
+          </div>
+        </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer id="contact">
+    <div class="container-medium">
+      <hr>
+      <h3>Contact</h3>
+      <div class="box-contact">
+        <a href="mailto:kilian.beaumont@gmail.com">
+          <div class="contact contact-email">
+            <p>
+              <i class="ri-mail-fill"></i>
+              Envoyez un mail !
+            </p>
+          </div>
+        </a>
+        <a href="https://www.linkedin.com/in/kilian-beaumont-b92b73258/">
+          <div class="contact contact-linkedin">
+            <p>
+              <i class="ri-linkedin-box-fill"></i>
+              LinkedIn
+            </p>
+          </div>
+        </a>
+        
+        <div class="contact contact-twitter">
+          <p>
+            <i class="ri-twitter-fill"></i>
+            Twitter
+          </p>
+        </div>
+        <a href="https://github.com/KilianBeaumont">
+          <div class="contact contact-github">
+              <p>
+                <i class="ri-github-fill"></i>
+                Github
+              </p>
+          </div>
+        </a>
+        
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/scrollreveal.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>
